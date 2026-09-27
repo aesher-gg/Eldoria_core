@@ -1,2 +1,2 @@
-# Tianxia_core
-Core roleplay untuk RPG text tema xianxia
+# Eldoria_core
+Core roleplay untuk RPG text tema Medieval fantasi
