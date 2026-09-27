@@ -10,7 +10,7 @@
 
 | Nama Karakter | Class | Rank / Level | Lokasi Terakhir | Link Official Save RAW |
 |---|---|---|---|---|
-| *(Belum ada karakter terdaftar)* | - | - | - | - |
+| **Aether** | Warrior | Rank F / Lvl 1 | Central Citadel (The Golden Dragon Inn) | `players/Aether.md` |
 
 ---
 
