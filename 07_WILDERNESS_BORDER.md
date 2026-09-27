@@ -19,13 +19,29 @@ Wilderness adalah zona bebas tanpa hukum Kerajaan yang mengelilingi perbatasan a
 
 ---
 
-## 3. MEKANIK LINGKUNGAN & BAHAYA PERBATASAN
+## 3. NPC KUNCI WILDERNESS & BORDERLAND
+
+### 3.1 Captain Kaelen (Kepala Pos Outpost 9)
+- **Role**: Pengawas Perbatasan | **Class**: Warrior Rank B (Level 26)
+- **Kepribadian**: Waspada, praktis, mengutamakan keselamatan para petualang muda yang memburu goblin.
+- **Lokasi**: Outpost 9 Guard Station.
+- **Fungsi Roleplay**: Pembeli telinga goblin/monster, pemberi tugas pembersihan dungeon skala kecil.
+
+### 3.2 Old Pete "The Trapper"
+- **Role**: Pemburu & Herbalis Liar | **Class**: Ranger Rank C (Level 20)
+- **Kepribadian**: Berjangkut panjang, tahu setiap inci jalan rahasia dan sarang monster di Mistwood.
+- **Lokasi**: Pondok Kayu Mistwood.
+- **Fungsi Roleplay**: Penjual umpan monster, peta lokasi dungeon rahasia, pemandu jalan.
+
+---
+
+## 4. MEKANIK LINGKUNGAN & BAHAYA PERBATASAN
 
 - **Ambush Rate Tinggi**: Setiap istirahat di luar Pos Resmi tanpa penjagaan ketat memiliki 35% peluang diserang oleh monster/bandit malam (*Night Ambush*).
 
 ---
 
-## 4. ANCAMAN & MONSTER WILDERNESS
+## 5. ANCAMAN & MONSTER WILDERNESS
 - **Goblin Raider**: Penyamun kecil berkelompok (Rank F).
 - **Orc Berserker**: Pejuang Orc berkapak besar (Rank D).
 - **Ogre Chief**: Pemimpin Ogre berotot raksasa (Rank C).

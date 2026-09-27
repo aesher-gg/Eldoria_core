@@ -19,14 +19,30 @@ Underdark adalah ekosistem gua bawah tanah raksasa yang membentang di bawah perm
 
 ---
 
-## 3. MEKANIK LINGKUNGAN & BAHAYA BAWAH TANAH
+## 3. NPC KUNCI UNDERDARK
+
+### 3.1 Matron Malice Shadowwhisper
+- **Role**: Penguasa Enclave Shadowspire | **Class**: Rogue/Mage Rank S (Level 41)
+- **Kepribadian**: Dingin, sangat cermat, pandai memanfaatkan intrik politik bawah tanah.
+- **Lokasi**: High Council Hall Shadowspire.
+- **Fungsi Roleplay**: Misi perdagangan Mithril, kontrak pembunuhan target rahasia.
+
+### 3.2 Master Smith Grumbar Deepforge
+- **Role**: Penguasa Perhimpunan Obsidian | **Class**: Craftsman Rank A (Level 35)
+- **Kepribadian**: Kurang bicara, sangat ahli mengolah logam Adamantine dan bijih kegelapan.
+- **Lokasi**: Bengkel Vulkanik Underdark.
+- **Fungsi Roleplay**: Nempa zirah Adamantine (Tier C/B), ekstraksi kristal mana murni.
+
+---
+
+## 4. MEKANIK LINGKUNGAN & BAHAYA BAWAH TANAH
 
 - **Kegelapan Mutlak (*Total Darkness*)**: Karakter tanpa kemampuan *Darkvision* atau obor mengalami disadventage (-5) pada semua serangan dan D20 Perception Check.
 - **Gas Beracun (*Toxic Fumes*)**: Karakter yang melintasi zona jamur racun wajib CON Save (DC 13) atau terkena status *Poisoned*.
 
 ---
 
-## 4. ANCAMAN & MONSTER UNDERDARK
+## 5. ANCAMAN & MONSTER UNDERDARK
 - **Cave Spider**: Laba-laba gua beracun (Rank E).
 - **Hook Horror**: Monster bersenjatakan sabit raksasa (Rank C).
 - **Beholder**: Monster mata raksasa pemancar sinar sihir mematikan (Rank S).

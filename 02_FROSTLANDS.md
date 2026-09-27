@@ -20,14 +20,36 @@ Frostlands adalah wilayah paling utara benua Eldoria yang diselimuti salju dan e
 
 ---
 
-## 3. MEKANIK LINGKUNGAN & BAHAYA UTARA
+## 3. NPC KUNCI FROSTLANDS
+
+### 3.1 Captain Harken (Komandan Frostguard Citadel)
+- **Role**: Komandan Benteng Utam | **Class**: Warrior Rank A (Level 35)
+- **Kepribadian**: Dingin, keras, berjiwa ksatria sejati yang telah bertahan di perbatasan es selama 20 tahun.
+- **Lokasi**: Ruang Komando Frostguard Citadel.
+- **Fungsi Roleplay**: Memberi tugas perburuan monster es, patroli perbatasan utara.
+
+### 3.2 Shaman Yrsa (Kepala Klan Winterglen)
+- **Role**: Pemimpin Mistik Barbar | **Class**: Druid/Shaman Rank A (Level 34)
+- **Kepribadian**: Dikelilingi roh es, bicaranya tenang dan penuh nubuat alam.
+- **Lokasi**: Tenda Utama Desa Winterglen.
+- **Fungsi Roleplay**: Pelatihan sihir es/alam, ramuan penawar hypothermia.
+
+### 3.3 Bjorn "The Bear Slayer"
+- **Role**: Pemburu Monster Elit | **Class**: Barbarian/Warrior Rank B (Level 28)
+- **Kepribadian**: Pemarah, suka minum mead, sangat menghormati pejuang berkekuatan fisik besar.
+- **Lokasi**: Kedai Kedai Es Winterglen.
+- **Fungsi Roleplay**: Rekan bertarung mercenary, pemandu jalan di Pegunungan Frostfang.
+
+---
+
+## 4. MEKANIK LINGKUNGAN & BAHAYA UTARA
 
 - **Mekanik Hypothermia**: Setiap 2 jam perjalanan tanpa pakaian hangat/sumber panas, karakter wajib D20 CON Save (DC 12). Jika gagal, terkena efek *Hypothermia Stage 1* (-2 DEX Modifier & mengurangi Stamina sebesar 10/jam).
 - **Badai Salju (*Blizzard*)**: Mengurangi jarak pandang hingga 5 meter, memicu kepanikan, dan menggandakan konsumsi Stamina.
 
 ---
 
-## 4. ANCAMAN & MONSTER FROSTLANDS
+## 5. ANCAMAN & MONSTER FROSTLANDS
 - **Frost Direwolf**: Serigala es raksasa berburu dalam kelompok (Rank F - D).
 - **Ice Troll**: Troll dengan kemampuan regenerasi es kecuali terbakar api (Rank C).
 - **Frost Giant**: Raksasa es penjaga Pegunungan Frostfang (Rank B - A).

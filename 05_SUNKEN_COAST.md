@@ -19,14 +19,30 @@ Sunken Coast adalah kawasan pesisir dan kepulauan tropis di bagian selatan Eldor
 
 ---
 
-## 3. MEKANIK LINGKUNGAN & BAHAYA SELATAN
+## 3. NPC KUNCI SUNKEN COAST
+
+### 3.1 Admiral Blackbeard Drake
+- **Role**: Pemimpin Aliansi Armada Tidal | **Class**: Rogue/Warrior Rank S (Level 40)
+- **Kepribadian**: Pemberani, tidak sudi tunduk pada Hukum Kerajaan, pemegang peta laut kuno.
+- **Lokasi**: Kapal Flagship *The Leviathan* (Tidal Haven).
+- **Fungsi Roleplay**: Rekrutmen bajak laut, misi penjarahan kapal musuh, penyewaan kapal ganjil.
+
+### 3.2 Harbor Master Corwin
+- **Role**: Kepala Pengelola Pelabuhan Port Ironhook | **Class**: Warrior Rank B (Level 27)
+- **Kepribadian**: Tegas, menyukai keteraturan dokumen dan pajak pelabuhan.
+- **Lokasi**: Kantor Syahbandar Port Ironhook.
+- **Fungsi Roleplay**: Izin pelayaran, penyewaan kapal dagang resmi, paspor maritim.
+
+---
+
+## 4. MEKANIK LINGKUNGAN & BAHAYA SELATAN
 
 - **Pertarungan Atas Kapal (*Naval Combat*)**: Pertarungan di atas gelombang laut membutuhkan DEX Check (DC 10) saat melakukan gerakan ekstrem agar tidak jatuh ke laut.
 - **Bahaya Tenggelam (*Drowning*)**: Karakter yang jatuh ke air tanpa kemampuan berenang/sihir bernafas air hanya bisa bertahan selama `CON Modifier + 1` menit sebelum kehabisan oksigen.
 
 ---
 
-## 4. ANCAMAN & MONSTER SUNKEN COAST
+## 5. ANCAMAN & MONSTER SUNKEN COAST
 - **Siren**: Makhluk laut pemicu pesona lagu hipnotis (Rank D).
 - **Giant Sea Serpent**: Ular laut raksasa penghancur lambung kapal (Rank B).
 - **Kraken**: Penguasa gurita raksasa samudra (Rank SSS).
