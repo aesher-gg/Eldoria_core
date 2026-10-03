@@ -1,58 +1,87 @@
-# ⚔️ Modul 12 — COMBAT SYSTEM
+# ⚔️ Modul 12 — COMBAT & TACTICAL SYSTEM
 
 > **Modul Sistem 12**
-> Memuat aturan sistem pertarungan berbasis D20, Initiative, Armor Class, Serangan, Damage Roll, Critical, dan Melarikan Diri.
+> Memuat aturan sistem pertarungan D20, Initiative, Surprise Round, Cover System, Combat Maneuvers, Critical Fumbles, serta Bahaya Lingkungan Pertarungan.
 
 ---
 
-## 1. STRUKTUR GILIRAN & INISIATIF (*INITIATIVE*)
+## 1. INISIATIF & SURPRISE ROUND
 
-Ketika pertarungan dimulai, seluruh peserta melempar dadu inisiatif untuk menentukan urutan giliran:
-- **Initiative Roll**: `D20 + DEX Modifier`.
-- Urutan giliran ditentukan dari nilai terbesar hingga terkecil.
+Pertarungan berjalan dalam putaran bertahap (*Turn-Based Round*) di mana 1 Round direpresentasikan sebagai 6 detik waktu dunia.
 
----
+### 1.1 Initiative Roll
+Setiap peserta pertempuran melempar:
+`Initiative Roll = D20 + DEX Modifier`
+Urutan giliran berjalan dari nilai terbesar hingga terkecil. Jika ada nilai seri, karakter dengan DEX Score lebih tinggi melangkah lebih dulu.
 
-## 2. METODE SERANGAN & ARMOR CLASS (AC)
-
-Untuk menentukan apakah serangan fisik atau sihir jarak dekat berhasil mengenai sasaran:
-
-### Formula Lemparan Serangan (*Attack Roll*):
-`Total Attack Roll = D20 Roll + Stat Modifier + Proficiency Bonus`
-- **Serangan Jarak Dekat (Melee)**: Menggunakan STR Modifier (atau DEX jika senjata *Finesse*).
-- **Serangan Jarak Jauh (Ranged)**: Menggunakan DEX Modifier.
-- **Serangan Sihir (Spell Attack)**: Menggunakan INT/WIS Modifier.
-
-### Penentuan Hit vs Miss:
-- Jika `Total Attack Roll >= Target Armor Class (AC)`, serangan **BERHASIL (HIT)**.
-- Jika `Total Attack Roll < Target Armor Class (AC)`, serangan **GAGAL (MISS / PARRIED / BLOCKED)**.
+### 1.2 Surprise Round (Serangan Kejutan)
+Jika satu pihak berhasil melakukan pendeteksian tersembunyi (*Stealth Check vs WIS Passive Perception*) sebelum pertarungan dimulai:
+- Pihak yang terkejut (*Surprised*) **tidak dapat mengambil Action, Movement, atau Reaction** pada Round pertama pertarungan.
 
 ---
 
-## 3. KALKULASI DAMAGE & CRITICAL HIT
+## 2. ARMOR CLASS (AC), ATTACK ROLL & SYSTEM COVER
 
-- **Damage Roll**: Dilempar sesuai tipe senjata/mantra + Stat Modifier.
-  - *Misal: Pedang Panjang (1d8) + STR Modifier (+3) = 1d8 + 3 Physical Damage.*
-- **Critical Hit (Natural 20 pada D20)**:
-  - Serangan otomatis Berhasil (HIT).
-  - Lempar jumlah dadu damage 2x lipat! *(Misal: 2d8 + 3).*
-- **Critical Failure (Natural 1 pada D20)**:
-  - Serangan otomatis Gagal, senjata berisiko terlepas/rusak.
+### 2.1 Attack Roll vs Armor Class
+`Total Attack Roll = D20 + Stat Modifier (STR/DEX/INT/WIS) + Proficiency Bonus`
+- Jika `Total Attack Roll >= Target AC`: **HIT (Serangan Berhasil)**.
+- Jika `Total Attack Roll < Target AC`: **MISS / PARRIED / BLOCKED**.
 
----
-
-## 4. TIPE DAMAGE & KETAHANAN (*RESISTANCE*)
-
-- **Tipe Damage**: Physical (Slashing/Piercing/Bludgeoning), Fire, Ice, Lightning, Poison, Radiant, Necrotic, Arcane.
-- **Resistance**: Mengurangi damage tipe terkait sebesar 50%.
-- **Immunity**: Menolak 100% damage tipe terkait.
-- **Vulnerability**: Menerima 2x lipat damage tipe terkait.
+### 2.2 Cover System (Perlindungan Medan)
+Karakter yang bersembunyi di balik objek lingkungan mendapatkan bonus AC dan DEX Saving Throw:
+- **Half Cover (Setengah Perlindungan — Tembok Rendah/Pohon)**: **+2 AC** & **+2 DEX Saving Throw**.
+- **Three-Quarter Cover (Tiga Perempat Perlindungan — Pintu Barikade/Celah Tembok)**: **+5 AC** & **+5 DEX Saving Throw**.
+- **Total Cover (Perlindungan Penuh)**: Tidak dapat ditargetkan langsung oleh serangan fisik atau sihir jarak jauh.
 
 ---
 
-## 5. MEKANIK KABUR (*ESCAPE / RETREAT*)
+## 3. COMBAT MANEUVERS (MANUVER PERTARUNGAN TAKTIS)
 
-Pemain dapat mencoba melarikan diri dari pertarungan pada gilirannya:
-- **Escape Roll**: `D20 + DEX Modifier` vs `DC 12 + Monster DEX Modifier`.
-- Berhasil = Karakter berhasil melarikan diri ke area aman terdekat.
-- Gagal = Karakter kehilangan giliran dan musuh mendapatkan serangan bebas (*Opportunity Attack*).
+Setiap karakter dapat menggunakan Action mereka untuk mengeksekusi manuver taktis berikut:
+
+1. **Grapple (Penyergapan / Cengkeraman)**:
+   - *Check*: Contested **D20 STR (Athletics)** Player vs **D20 STR/DEX** Target.
+   - *Berhasil*: Target terkena status **Grappled** (Speed menjadi 0m, Disadvantage pada serangan).
+2. **Disarm (Melucuti Senjata)**:
+   - *Check*: Player melempar **Attack Roll** vs Target **STR/DEX Saving Throw**.
+   - *Berhasil*: Senjata target terlempar sejauh 3 meter ke tanah.
+3. **Shove / Knockdown (Mendorong / Merobohkan)**:
+   - *Check*: Contested **D20 STR** Player vs **D20 STR/DEX** Target.
+   - *Berhasil*: Target terdorong mundur 3 meter ATAU jatuh telungkup (**Prone** — Serangan melee ke target Prone mendapat Advantage).
+4. **Parry & Riposte (Tangkisan & Serangan Balas)**:
+   - *Reaction*: Ketika diserang melee, lempar **D20 + DEX Mod**. Jika hasil > Attack Roll musuh, serangan ditangkis penuh dan pemain dapat melancarkan 1x serangan balasan.
+5. **Feint (Tipuan Serangan)**:
+   - *Check*: Contested **D20 CHA (Deception)** Player vs **D20 WIS (Insight)** Target.
+   - *Berhasil*: Serangan berikutnya pada turn yang sama mendapatkan **Advantage**.
+6. **Disengage**: Bergerak pergi tanpa memicu *Opportunity Attack*.
+7. **Dodge**: Mengambil posisi bertahan. Seluruh serangan musuh hingga turn berikutnya mendapatkan **Disadvantage**.
+
+---
+
+## 4. CRITICAL HITS & CRITICAL FUMBLES TABLE
+
+### 4.1 Critical Hit (Natural 20)
+- Serangan otomatis Berhasil (HIT).
+- **Damage Roll**: Lempar jumlah dadu damage 2x lipat + tambahkan Stat Modifier. *(Contoh: Pedang 1d8+3 menjadi 2d8+3).*
+
+### 4.2 Critical Fumble Table (Natural 1)
+Jika lemparan D20 Attack Roll menghasilkan angka **1 murni**, lempar **D6 Fumble Table**:
+
+| Roll D6 | Efek Critical Fumble |
+|---|---|
+| **1** | **Senjata Terlepas**: Senjata terlempar sejauh 3m ke arah acak. |
+| **2** | **Tergelincir (Trip)**: Karakter jatuh telungkup (*Prone*) dan kehilangan sisa Movement. |
+| **3** | **Melukai Sekutu**: Serangan mengenai sekutu terdekat (Lempar damage normal ke sekutu). |
+| **4** | **Senjata Tersangkut / Rusak**: Senjata tersangkut di zirah/tanah. Membutuhkan Action STR Check DC 12 untuk mencabut. |
+| **5** | **Armor Jam**: Tali zirah terlepas, mengurangi AC karakter sebesar -2 hingga diperbaiki. |
+| **6** | **Terguncang (Stunned)**: Karakter kehilangan Reaction hingga awal turn berikutnya. |
+
+---
+
+## 5. BAHAYA LINGKUNGAN PERTARUNGAN (*ENVIRONMENTAL HAZARDS*)
+
+ Pertarungan di lokasi ekstrem menambahkan bahaya medan berikut:
+- **Lava / Volcanic Terrain**: Berada dalam jarak 2m dari lava memberikan 2d10 Fire Damage per turn. Jatuh ke lava = 10d10 Fire Damage per turn.
+- **Slippery Ice (Es Licin)**: Setiap kali bergerak cepat, karakter wajib D20 DEX Save DC 12. Gagal = Tergelincir (*Prone*).
+- **Submerged Water Fighting**: Pertarungan di dalam air memberikan **Disadvantage** pada serangan senjata tumpul/tebas (*Slashing/Bludgeoning*), kecuali Dagger, Spear, atau Trident.
+- **Extreme Darkness (Kegelapan Abadi)**: Seluruh serangan tanpa penglihatan malam (*Darkvision*) atau obor mendapat **Disadvantage**.
